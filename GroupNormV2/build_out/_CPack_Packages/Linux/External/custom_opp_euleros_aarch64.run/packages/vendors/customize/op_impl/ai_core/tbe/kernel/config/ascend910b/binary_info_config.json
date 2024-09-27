@@ -1,0 +1,28 @@
+{
+  "GroupNormV2": {
+    "dynamicRankSupport": true,
+    "simplifiedKeyMode": 0,
+    "binaryList": [
+      {
+        "coreType": 2,
+        "simplifiedKey": "GroupNormV2/d=0,p=0/0,2/0,2/0,2/0,2/0,2/0,2",
+        "binPath": "ascend910b/group_norm_v2/GroupNormV2_783e55641b4dfa21360521bf61bcee00.o"
+      },
+      {
+        "coreType": 2,
+        "simplifiedKey": "GroupNormV2/d=1,p=0/0,2/0,2/0,2/0,2/0,2/0,2",
+        "binPath": "ascend910b/group_norm_v2/GroupNormV2_783e55641b4dfa21360521bf61bcee00.o"
+      },
+      {
+        "coreType": 2,
+        "simplifiedKey": "GroupNormV2/d=0,p=0/1,2/1,2/1,2/1,2/1,2/1,2",
+        "binPath": "ascend910b/group_norm_v2/GroupNormV2_499e827d5d577e31090ae81a6c53b542.o"
+      },
+      {
+        "coreType": 2,
+        "simplifiedKey": "GroupNormV2/d=1,p=0/1,2/1,2/1,2/1,2/1,2/1,2",
+        "binPath": "ascend910b/group_norm_v2/GroupNormV2_499e827d5d577e31090ae81a6c53b542.o"
+      }
+    ]
+  }
+}

@@ -1,0 +1,198 @@
+{
+  "binList": [
+    {
+      "simplifiedKey": [
+        "GroupNormV2/d=0,p=0/0,2/0,2/0,2/0,2/0,2/0,2",
+        "GroupNormV2/d=1,p=0/0,2/0,2/0,2/0,2/0,2/0,2"
+      ],
+      "staticKey": "ba92f30c262126767601a3a949ce9cbe5573b88eaf0316f6e291289b57b4e6cd",
+      "int64Mode": false,
+      "inputs": [
+        {
+          "name": "x",
+          "index": 0,
+          "dtype": "float32",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ]
+        },
+        {
+          "name": "gamma",
+          "index": 1,
+          "dtype": "float32",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ]
+        },
+        {
+          "name": "beta",
+          "index": 2,
+          "dtype": "float32",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "y",
+          "index": 0,
+          "dtype": "float32",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ]
+        },
+        {
+          "name": "mean",
+          "index": 1,
+          "dtype": "float32",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ]
+        },
+        {
+          "name": "rstd",
+          "index": 2,
+          "dtype": "float32",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ]
+        }
+      ],
+      "attrs": [
+        {
+          "name": "num_groups",
+          "dtype": "int",
+          "value": 0
+        },
+        {
+          "name": "data_format",
+          "dtype": "str",
+          "value": ""
+        },
+        {
+          "name": "eps",
+          "dtype": "float",
+          "value": 0.0
+        },
+        {
+          "name": "is_training",
+          "dtype": "bool",
+          "value": false
+        }
+      ],
+      "binInfo": {
+        "jsonFilePath": "ascend910b/group_norm_v2/GroupNormV2_783e55641b4dfa21360521bf61bcee00.json"
+      }
+    },
+    {
+      "simplifiedKey": [
+        "GroupNormV2/d=0,p=0/1,2/1,2/1,2/1,2/1,2/1,2",
+        "GroupNormV2/d=1,p=0/1,2/1,2/1,2/1,2/1,2/1,2"
+      ],
+      "staticKey": "6b0cb2741072ea521b22ae0f13b8836017030f5a0b1c5151937db70101d766f8",
+      "int64Mode": false,
+      "inputs": [
+        {
+          "name": "x",
+          "index": 0,
+          "dtype": "float16",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ]
+        },
+        {
+          "name": "gamma",
+          "index": 1,
+          "dtype": "float16",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ]
+        },
+        {
+          "name": "beta",
+          "index": 2,
+          "dtype": "float16",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "y",
+          "index": 0,
+          "dtype": "float16",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ]
+        },
+        {
+          "name": "mean",
+          "index": 1,
+          "dtype": "float16",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ]
+        },
+        {
+          "name": "rstd",
+          "index": 2,
+          "dtype": "float16",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ]
+        }
+      ],
+      "attrs": [
+        {
+          "name": "num_groups",
+          "dtype": "int",
+          "value": 0
+        },
+        {
+          "name": "data_format",
+          "dtype": "str",
+          "value": ""
+        },
+        {
+          "name": "eps",
+          "dtype": "float",
+          "value": 0.0
+        },
+        {
+          "name": "is_training",
+          "dtype": "bool",
+          "value": false
+        }
+      ],
+      "binInfo": {
+        "jsonFilePath": "ascend910b/group_norm_v2/GroupNormV2_499e827d5d577e31090ae81a6c53b542.json"
+      }
+    }
+  ]
+}

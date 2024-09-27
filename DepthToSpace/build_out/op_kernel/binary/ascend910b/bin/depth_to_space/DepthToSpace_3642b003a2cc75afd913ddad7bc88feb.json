@@ -1,0 +1,86 @@
+{
+    "binFileName": "DepthToSpace_3642b003a2cc75afd913ddad7bc88feb",
+    "binFileSuffix": ".o",
+    "blockDim": -1,
+    "coreType": "VectorCore",
+    "core_type": "AIV",
+    "intercoreSync": 0,
+    "kernelName": "DepthToSpace_3642b003a2cc75afd913ddad7bc88feb",
+    "magic": "RT_DEV_BINARY_MAGIC_ELF_AIVEC",
+    "memoryStamping": [],
+    "opParaSize": 56,
+    "parameters": [],
+    "sha256": "7f39d496079d0f60a99d1a84c7379a809a4fba03351225173253f3b0879b5ddf",
+    "workspace": {
+        "num": 1,
+        "size": [
+            -1
+        ],
+        "type": [
+            0
+        ]
+    },
+    "kernelList": [
+        {
+            "kernelName": "DepthToSpace_3642b003a2cc75afd913ddad7bc88feb_0"
+        }
+    ],
+    "optionalInputMode": "gen_placeholder",
+    "debugOptions": "printf",
+    "debugBufSize": 78643200,
+    "compileInfo": {},
+    "supportInfo": {
+        "implMode": "",
+        "int64Mode": false,
+        "simplifiedKeyMode": 0,
+        "simplifiedKey": [
+            "DepthToSpace/d=0,p=0/1,2/1,2",
+            "DepthToSpace/d=1,p=0/1,2/1,2"
+        ],
+        "staticKey": "532f7943c8bdbc739aa2d55f8dce8c1965d6ef1caf9fca3c96de203ef5bdd7e7",
+        "inputs": [
+            {
+                "name": "x",
+                "index": 0,
+                "dtype": "float16",
+                "format": "ND",
+                "paramType": "required",
+                "shape": [
+                    -2
+                ]
+            }
+        ],
+        "outputs": [
+            {
+                "name": "y",
+                "index": 0,
+                "dtype": "float16",
+                "format": "ND",
+                "paramType": "required",
+                "shape": [
+                    -2
+                ]
+            }
+        ],
+        "attrs": [
+            {
+                "name": "Block_size",
+                "dtype": "int",
+                "value": 0
+            },
+            {
+                "name": "mode",
+                "dtype": "str",
+                "value": ""
+            },
+            {
+                "name": "Data_format",
+                "dtype": "str",
+                "value": ""
+            }
+        ],
+        "opMode": "dynamic",
+        "optionalInputMode": "gen_placeholder",
+        "deterministic": "ignore"
+    }
+}

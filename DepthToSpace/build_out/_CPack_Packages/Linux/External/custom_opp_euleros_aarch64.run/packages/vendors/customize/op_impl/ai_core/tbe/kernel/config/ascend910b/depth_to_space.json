@@ -1,0 +1,212 @@
+{
+  "binList": [
+    {
+      "simplifiedKey": [
+        "DepthToSpace/d=0,p=0/0,2/0,2",
+        "DepthToSpace/d=1,p=0/0,2/0,2"
+      ],
+      "staticKey": "e38295c9fec22197d742cf7544f62ca4f80c0565fb41312628b3b36e4f2d79f2",
+      "int64Mode": false,
+      "inputs": [
+        {
+          "name": "x",
+          "index": 0,
+          "dtype": "float32",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "y",
+          "index": 0,
+          "dtype": "float32",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ]
+        }
+      ],
+      "attrs": [
+        {
+          "name": "Block_size",
+          "dtype": "int",
+          "value": 0
+        },
+        {
+          "name": "mode",
+          "dtype": "str",
+          "value": ""
+        },
+        {
+          "name": "Data_format",
+          "dtype": "str",
+          "value": ""
+        }
+      ],
+      "binInfo": {
+        "jsonFilePath": "ascend910b/depth_to_space/DepthToSpace_715b3263d6a78f0490d06b59e95b2eda.json"
+      }
+    },
+    {
+      "simplifiedKey": [
+        "DepthToSpace/d=0,p=0/1,2/1,2",
+        "DepthToSpace/d=1,p=0/1,2/1,2"
+      ],
+      "staticKey": "532f7943c8bdbc739aa2d55f8dce8c1965d6ef1caf9fca3c96de203ef5bdd7e7",
+      "int64Mode": false,
+      "inputs": [
+        {
+          "name": "x",
+          "index": 0,
+          "dtype": "float16",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "y",
+          "index": 0,
+          "dtype": "float16",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ]
+        }
+      ],
+      "attrs": [
+        {
+          "name": "Block_size",
+          "dtype": "int",
+          "value": 0
+        },
+        {
+          "name": "mode",
+          "dtype": "str",
+          "value": ""
+        },
+        {
+          "name": "Data_format",
+          "dtype": "str",
+          "value": ""
+        }
+      ],
+      "binInfo": {
+        "jsonFilePath": "ascend910b/depth_to_space/DepthToSpace_3642b003a2cc75afd913ddad7bc88feb.json"
+      }
+    },
+    {
+      "simplifiedKey": [
+        "DepthToSpace/d=0,p=0/3,2/3,2",
+        "DepthToSpace/d=1,p=0/3,2/3,2"
+      ],
+      "staticKey": "12793468e0b5dcc379d6d30d9826fa9e5b82c5afdfad1d1cc0776041ad401e01",
+      "int64Mode": false,
+      "inputs": [
+        {
+          "name": "x",
+          "index": 0,
+          "dtype": "int32",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "y",
+          "index": 0,
+          "dtype": "int32",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ]
+        }
+      ],
+      "attrs": [
+        {
+          "name": "Block_size",
+          "dtype": "int",
+          "value": 0
+        },
+        {
+          "name": "mode",
+          "dtype": "str",
+          "value": ""
+        },
+        {
+          "name": "Data_format",
+          "dtype": "str",
+          "value": ""
+        }
+      ],
+      "binInfo": {
+        "jsonFilePath": "ascend910b/depth_to_space/DepthToSpace_18665e9759bd12a2adf7fab69edc49c3.json"
+      }
+    },
+    {
+      "simplifiedKey": [
+        "DepthToSpace/d=0,p=0/2,2/2,2",
+        "DepthToSpace/d=1,p=0/2,2/2,2"
+      ],
+      "staticKey": "44d453e4c794869d85eaa5ac16a17bbcc85a6403fe4f889c7ee3c47ed759f1cb",
+      "int64Mode": false,
+      "inputs": [
+        {
+          "name": "x",
+          "index": 0,
+          "dtype": "int8",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "y",
+          "index": 0,
+          "dtype": "int8",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ]
+        }
+      ],
+      "attrs": [
+        {
+          "name": "Block_size",
+          "dtype": "int",
+          "value": 0
+        },
+        {
+          "name": "mode",
+          "dtype": "str",
+          "value": ""
+        },
+        {
+          "name": "Data_format",
+          "dtype": "str",
+          "value": ""
+        }
+      ],
+      "binInfo": {
+        "jsonFilePath": "ascend910b/depth_to_space/DepthToSpace_5d7c211aab8faa96d43ebd3f7248387b.json"
+      }
+    }
+  ]
+}

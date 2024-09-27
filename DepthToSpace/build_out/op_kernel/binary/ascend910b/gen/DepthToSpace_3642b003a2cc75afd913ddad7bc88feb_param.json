@@ -1,0 +1,49 @@
+{
+  "op_type": "DepthToSpace",
+  "op_list": [
+    {
+      "bin_filename": "DepthToSpace_3642b003a2cc75afd913ddad7bc88feb",
+      "inputs": [
+        {
+          "name": "x",
+          "index": 0,
+          "dtype": "float16",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "y",
+          "index": 0,
+          "dtype": "float16",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ]
+        }
+      ],
+      "attrs": [
+        {
+          "name": "Block_size",
+          "dtype": "int",
+          "value": 0
+        },
+        {
+          "name": "mode",
+          "dtype": "str",
+          "value": ""
+        },
+        {
+          "name": "Data_format",
+          "dtype": "str",
+          "value": ""
+        }
+      ]
+    }
+  ]
+}
